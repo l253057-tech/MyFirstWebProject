@@ -1,0 +1,58 @@
+body{
+
+ background-color: black;
+ font-family: 'Trebuchet MS', sans-serif;
+ margin: 0;
+ padding: 0;
+}
+#header{
+    text-align: center;
+}
+
+#container{
+
+     width: 80%;
+margin:10px auto;
+border:3px solid blueviolet ;
+background-color: white;
+padding: 100px;
+box-shadow: 0 0 10px red;
+
+}
+
+.subtitle{
+    color: rgb(10, 45, 241);
+font-style: italic;
+}
+
+#main{
+display: flex;
+}
+
+#sidebar{
+    width: 25%;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.date{
+
+    color: chocolate;
+
+}
+
+.quote{
+    color: brown;
+}
+
+.post{
+    border: 2px;
+    background-color: aqua;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    margin: 20px;
+}
